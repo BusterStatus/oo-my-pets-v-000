@@ -24,10 +24,7 @@ class Owner
   def self.reset_all
     @@all = []
   end
-  
-  def species=(species)
-    @species = species
-  end
+
   
   def buy_cat(name)
     new_cat = Cat.new(name)
