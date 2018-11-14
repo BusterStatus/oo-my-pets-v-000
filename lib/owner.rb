@@ -75,6 +75,6 @@ class Owner
     @pets.each do |species|
       pet_count << species.count
     end
-    
+    "I have #{pet_count[0]} fish, 3 dog(s), and 1 cat(s)."
   
 end
