@@ -71,6 +71,8 @@ class Owner
   end
   
   def list_pets
-    
+    pet_count = []
+    @pets.each do |species|
+      species.count
   
 end
