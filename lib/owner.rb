@@ -74,5 +74,7 @@ class Owner
     pet_count = []
     @pets.each do |species|
       pet_count << species.count
+    end
+    
   
 end
