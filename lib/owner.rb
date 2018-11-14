@@ -76,5 +76,6 @@ class Owner
       pet_count << species.count
     end
     "I have #{pet_count[0]} fish, #{pet_count[1]} dog(s), and #{pet_count[2]} cat(s)."
+  end
   
 end
