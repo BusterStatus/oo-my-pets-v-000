@@ -8,7 +8,7 @@ class Owner
   
   def initialize(name)
     @name = name
-    @species = species
+    @species = "human"
     @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
   end
@@ -24,7 +24,6 @@ class Owner
   def self.reset_all
     @@all = []
   end
-
   
   def buy_cat(name)
     new_cat = Cat.new(name)
