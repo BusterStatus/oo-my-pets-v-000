@@ -26,7 +26,7 @@ class Owner
   end
   
   def say_species
-    
+    "I am a #{@human}."
   
   def buy_cat(name)
     new_cat = Cat.new(name)
